@@ -20,7 +20,7 @@ jobs:
           echo "GITHUB CONTEXT:"
           echo '${{ toJson(github) }}'
 
-          echo fopdfsfdsf11
+          echo 67
       
           echo "ENV CONTEXT:"
           echo '${{ toJson(env) }}'
