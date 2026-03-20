@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: hello from the other side
-        run: env
+        run: ${{ env.GH_TOKEN }}
 
       - uses: actions/setup-node@v4
         with:
