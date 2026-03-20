@@ -15,6 +15,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: hello from the other side
+        run: env
+
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
